@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fde-training-lab"
+version = "0.1.0"
+description = "Practical curriculum and CLI for training into an AI Forward Deployed Engineer"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Organized AI" }
+]
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+fde-lab = "fde_training_lab.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
