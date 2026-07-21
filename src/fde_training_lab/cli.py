@@ -1,9 +1,8 @@
 from __future__ import annotations
 
 import argparse
-from textwrap import indent
 
-from .data import MODULES, SCORECARD, WEEK_PLAN
+from .data import MODULES, RESOURCE_SECTIONS, SCORECARD, WEEK_PLAN
 
 
 def _roadmap_text() -> str:
@@ -55,12 +54,26 @@ def _scorecard_text() -> str:
     return "\n".join(lines) + "\n"
 
 
+def _resources_text() -> str:
+    lines = ["Curated FDE Resources", "====================="]
+    for title, items in RESOURCE_SECTIONS:
+        lines.append(title)
+        lines.append("-" * len(title))
+        for name, url, description in items:
+            lines.append(f"- {name}")
+            lines.append(f"  {url}")
+            lines.append(f"  {description}")
+        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="fde_training_lab", description="FDE training curriculum CLI")
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     subparsers.add_parser("roadmap", help="Print the 30-day roadmap")
     subparsers.add_parser("modules", help="List training modules")
+    subparsers.add_parser("resources", help="Print the curated resource map")
 
     module_parser = subparsers.add_parser("module", help="Show details for one module")
     module_parser.add_argument("slug", choices=sorted(MODULES))
@@ -84,6 +97,9 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     if args.command == "modules":
         print(_modules_text(), end="")
+        return 0
+    if args.command == "resources":
+        print(_resources_text(), end="")
         return 0
     if args.command == "module":
         print(_module_text(args.slug), end="")

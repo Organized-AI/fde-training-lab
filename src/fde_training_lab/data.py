@@ -163,3 +163,47 @@ SCORECARD = (
     ("Business Value", "Revenue uplift, risk mitigation, cost savings framing."),
     ("Stakeholder Trust", "Can explain, defend, and de-risk the system for non-technical stakeholders."),
 )
+
+
+RESOURCE_SECTIONS = (
+    (
+        "Role and Mental Models",
+        (
+            ("Source video", "https://www.youtube.com/watch?v=zXysLUTLjw4", "Seed framing for the first version of this repo."),
+            ("Product brief", "docs/product-brief.md", "Internal thesis for what this repo believes FDE work is."),
+            ("Assessment rubric", "docs/assessment-rubric.md", "Checklist for whether a project looks deployment-grade."),
+        ),
+    ),
+    (
+        "Workflow Discovery and Operations",
+        (
+            ("Workflow audit template", "templates/workflow-audit-template.md", "Start here before touching models."),
+            ("GitLab Handbook", "https://about.gitlab.com/handbook/", "Public example of explicit operating process."),
+            ("Google SRE Book", "https://sre.google/sre-book/table-of-contents/", "Strong baseline for operational thinking and service maturity."),
+        ),
+    ),
+    (
+        "Agent Systems",
+        (
+            ("Building Effective Agents", "https://www.anthropic.com/engineering/building-effective-agents", "Practical framing for agent patterns and tradeoffs."),
+            ("Training modules", "curriculum/modules.md", "Internal module map for the FDE path."),
+            ("Workshop labs", "curriculum/workshop-labs.md", "Turn theory into proof artifacts."),
+        ),
+    ),
+    (
+        "Evals and Reliability",
+        (
+            ("OpenAI Evals: getting started", "https://cookbook.openai.com/examples/evaluation/getting_started_with_openai_evals", "Practical starting point for eval loops."),
+            ("Eval report template", "templates/eval-report-template.md", "Package evidence in a decision-ready format."),
+            ("30-Day FDE Plan", "curriculum/30-day-plan.md", "Week 3 focuses on measurement and economics."),
+        ),
+    ),
+    (
+        "Deployment and Integration",
+        (
+            ("The Twelve-Factor App", "https://12factor.net/", "Operational discipline that still matters."),
+            ("90-Day FDE Acceleration Plan", "curriculum/90-day-acceleration-plan.md", "Deeper path after the first capstone."),
+            ("Client / stakeholder pitch template", "templates/client-pitch-template.md", "Translate the work into approval-ready language."),
+        ),
+    ),
+)

@@ -26,6 +26,12 @@ class CLITest(unittest.TestCase):
         output = self.run_cli("modules")
         self.assertIn("workflow-audit", output)
 
+    def test_resources_print_curated_sections(self) -> None:
+        output = self.run_cli("resources")
+        self.assertIn("Curated FDE Resources", output)
+        self.assertIn("Building Effective Agents", output)
+        self.assertIn("Workflow Discovery and Operations", output)
+
     def test_module_details_include_outputs(self) -> None:
         output = self.run_cli("module", "workflow-audit")
         self.assertIn("Outputs:", output)
