@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1220" viewBox="0 0 1600 1220" role="img" aria-labelledby="title desc">
+  <title id="title">FDE Capstone Proof Stack</title>
+  <desc id="desc">A layered map of the proof artifacts that turn a workflow automation project into forward deployed engineering evidence.</desc>
+  <style>
+    .title { font: 700 42px 'Inter', 'Segoe UI', Arial, sans-serif; fill: #111827; }
+    .subtitle { font: 500 22px 'Inter', 'Segoe UI', Arial, sans-serif; fill: #4b5563; }
+    .columnTitle { font: 700 26px 'Inter', 'Segoe UI', Arial, sans-serif; fill: #111827; }
+    .cardTitle { font: 700 22px 'Inter', 'Segoe UI', Arial, sans-serif; fill: #111827; }
+    .cardText { font: 500 18px 'Inter', 'Segoe UI', Arial, sans-serif; fill: #374151; }
+    .small { font: 500 17px 'Inter', 'Segoe UI', Arial, sans-serif; fill: #4b5563; }
+    .panel { fill: #ffffff; stroke: #111827; stroke-width: 4; }
+    .core { fill: #fff200; stroke: #111827; stroke-width: 4; }
+    .beige { fill: #fde7a5; stroke: #111827; stroke-width: 4; }
+    .blue { fill: #2f80ed; stroke: #2f80ed; stroke-width: 3; }
+    .line { stroke: #2f80ed; stroke-width: 5; stroke-dasharray: 4 12; fill: none; }
+  </style>
+
+  <rect width="1600" height="1220" fill="#fafafa"/>
+  <text x="800" y="90" text-anchor="middle" class="title">FDE Capstone Proof Stack</text>
+  <text x="800" y="128" text-anchor="middle" class="subtitle">What separates a real forward deployed engineering case study from a nice-looking prototype.</text>
+
+  <rect x="70" y="190" width="260" height="860" rx="20" class="panel"/>
+  <rect x="380" y="190" width="260" height="860" rx="20" class="panel"/>
+  <rect x="690" y="190" width="260" height="860" rx="20" class="panel"/>
+  <rect x="1000" y="190" width="260" height="860" rx="20" class="panel"/>
+  <rect x="1310" y="190" width="220" height="860" rx="20" class="panel"/>
+
+  <text x="200" y="250" text-anchor="middle" class="columnTitle">1. Audit</text>
+  <text x="510" y="250" text-anchor="middle" class="columnTitle">2. Build</text>
+  <text x="820" y="250" text-anchor="middle" class="columnTitle">3. Measure</text>
+  <text x="1130" y="250" text-anchor="middle" class="columnTitle">4. Deploy</text>
+  <text x="1420" y="250" text-anchor="middle" class="columnTitle">5. Package</text>
+
+  <rect x="95" y="300" width="210" height="120" rx="16" class="beige"/>
+  <text x="200" y="345" text-anchor="middle" class="cardTitle">Workflow map</text>
+  <text x="200" y="382" text-anchor="middle" class="cardText">steps, actors, tools,</text>
+  <text x="200" y="408" text-anchor="middle" class="cardText">exceptions, approvals</text>
+
+  <rect x="95" y="455" width="210" height="120" rx="16" class="beige"/>
+  <text x="200" y="500" text-anchor="middle" class="cardTitle">Pain summary</text>
+  <text x="200" y="537" text-anchor="middle" class="cardText">where time leaks,</text>
+  <text x="200" y="563" text-anchor="middle" class="cardText">where risk hides</text>
+
+  <rect x="95" y="610" width="210" height="120" rx="16" class="beige"/>
+  <text x="200" y="655" text-anchor="middle" class="cardTitle">Scoping brief</text>
+  <text x="200" y="692" text-anchor="middle" class="cardText">what to automate,</text>
+  <text x="200" y="718" text-anchor="middle" class="cardText">what to leave human</text>
+
+  <rect x="95" y="765" width="210" height="120" rx="16" class="beige"/>
+  <text x="200" y="810" text-anchor="middle" class="cardTitle">Success metric</text>
+  <text x="200" y="847" text-anchor="middle" class="cardText">baseline speed,</text>
+  <text x="200" y="873" text-anchor="middle" class="cardText">quality, or cost</text>
+
+  <rect x="405" y="300" width="210" height="120" rx="16" class="core"/>
+  <text x="510" y="345" text-anchor="middle" class="cardTitle">Agent loop</text>
+  <text x="510" y="382" text-anchor="middle" class="cardText">tool calls, memory,</text>
+  <text x="510" y="408" text-anchor="middle" class="cardText">approval boundaries</text>
+
+  <rect x="405" y="455" width="210" height="120" rx="16" class="core"/>
+  <text x="510" y="500" text-anchor="middle" class="cardTitle">Architecture map</text>
+  <text x="510" y="537" text-anchor="middle" class="cardText">systems touched,</text>
+  <text x="510" y="563" text-anchor="middle" class="cardText">integration surfaces</text>
+
+  <rect x="405" y="610" width="210" height="120" rx="16" class="core"/>
+  <text x="510" y="655" text-anchor="middle" class="cardTitle">Trace sample</text>
+  <text x="510" y="692" text-anchor="middle" class="cardText">what happened,</text>
+  <text x="510" y="718" text-anchor="middle" class="cardText">why it happened</text>
+
+  <rect x="405" y="765" width="210" height="120" rx="16" class="core"/>
+  <text x="510" y="810" text-anchor="middle" class="cardTitle">Failure handling</text>
+  <text x="510" y="847" text-anchor="middle" class="cardText">retries, fallbacks,</text>
+  <text x="510" y="873" text-anchor="middle" class="cardText">known bad cases</text>
+
+  <rect x="715" y="300" width="210" height="120" rx="16" class="core"/>
+  <text x="820" y="345" text-anchor="middle" class="cardTitle">Golden dataset</text>
+  <text x="820" y="382" text-anchor="middle" class="cardText">representative cases</text>
+  <text x="820" y="408" text-anchor="middle" class="cardText">for repeated checks</text>
+
+  <rect x="715" y="455" width="210" height="120" rx="16" class="core"/>
+  <text x="820" y="500" text-anchor="middle" class="cardTitle">Eval rubric</text>
+  <text x="820" y="537" text-anchor="middle" class="cardText">pass / fail criteria</text>
+  <text x="820" y="563" text-anchor="middle" class="cardText">and business quality bars</text>
+
+  <rect x="715" y="610" width="210" height="120" rx="16" class="core"/>
+  <text x="820" y="655" text-anchor="middle" class="cardTitle">Failure taxonomy</text>
+  <text x="820" y="692" text-anchor="middle" class="cardText">systematic error</text>
+  <text x="820" y="718" text-anchor="middle" class="cardText">classes and fixes</text>
+
+  <rect x="715" y="765" width="210" height="120" rx="16" class="core"/>
+  <text x="820" y="810" text-anchor="middle" class="cardTitle">Economics</text>
+  <text x="820" y="847" text-anchor="middle" class="cardText">revenue, risk,</text>
+  <text x="820" y="873" text-anchor="middle" class="cardText">cost savings</text>
+
+  <rect x="1025" y="300" width="210" height="120" rx="16" class="beige"/>
+  <text x="1130" y="345" text-anchor="middle" class="cardTitle">Shadow mode</text>
+  <text x="1130" y="382" text-anchor="middle" class="cardText">observe safely before</text>
+  <text x="1130" y="408" text-anchor="middle" class="cardText">changing production behavior</text>
+
+  <rect x="1025" y="455" width="210" height="120" rx="16" class="beige"/>
+  <text x="1130" y="500" text-anchor="middle" class="cardTitle">Approval policy</text>
+  <text x="1130" y="537" text-anchor="middle" class="cardText">who signs off,</text>
+  <text x="1130" y="563" text-anchor="middle" class="cardText">when humans intervene</text>
+
+  <rect x="1025" y="610" width="210" height="120" rx="16" class="beige"/>
+  <text x="1130" y="655" text-anchor="middle" class="cardTitle">Rollback plan</text>
+  <text x="1130" y="692" text-anchor="middle" class="cardText">how to reverse</text>
+  <text x="1130" y="718" text-anchor="middle" class="cardText">and recover quickly</text>
+
+  <rect x="1025" y="765" width="210" height="120" rx="16" class="beige"/>
+  <text x="1130" y="810" text-anchor="middle" class="cardTitle">Monitoring</text>
+  <text x="1130" y="847" text-anchor="middle" class="cardText">what to watch after</text>
+  <text x="1130" y="873" text-anchor="middle" class="cardText">you ship</text>
+
+  <rect x="1335" y="300" width="170" height="120" rx="16" class="blue"/>
+  <text x="1420" y="345" text-anchor="middle" class="cardTitle" fill="#ffffff">Case study</text>
+  <text x="1420" y="382" text-anchor="middle" class="cardText" fill="#eef6ff">one clear story</text>
+  <text x="1420" y="408" text-anchor="middle" class="cardText" fill="#eef6ff">from audit to rollout</text>
+
+  <rect x="1335" y="455" width="170" height="120" rx="16" class="blue"/>
+  <text x="1420" y="500" text-anchor="middle" class="cardTitle" fill="#ffffff">Exec brief</text>
+  <text x="1420" y="537" text-anchor="middle" class="cardText" fill="#eef6ff">problem, evidence,</text>
+  <text x="1420" y="563" text-anchor="middle" class="cardText" fill="#eef6ff">risk, ROI</text>
+
+  <rect x="1335" y="610" width="170" height="120" rx="16" class="blue"/>
+  <text x="1420" y="655" text-anchor="middle" class="cardTitle" fill="#ffffff">Demo + traces</text>
+  <text x="1420" y="692" text-anchor="middle" class="cardText" fill="#eef6ff">show the work,</text>
+  <text x="1420" y="718" text-anchor="middle" class="cardText" fill="#eef6ff">not just the result</text>
+
+  <rect x="1335" y="765" width="170" height="120" rx="16" class="blue"/>
+  <text x="1420" y="810" text-anchor="middle" class="cardTitle" fill="#ffffff">Offer framing</text>
+  <text x="1420" y="847" text-anchor="middle" class="cardText" fill="#eef6ff">audit sprint →</text>
+  <text x="1420" y="873" text-anchor="middle" class="cardText" fill="#eef6ff">implementation</text>
+
+  <path d="M305 360 C340 360 360 360 405 360" class="line"/>
+  <path d="M615 360 C650 360 670 360 715 360" class="line"/>
+  <path d="M925 360 C960 360 980 360 1025 360" class="line"/>
+  <path d="M1235 360 C1270 360 1290 360 1335 360" class="line"/>
+
+  <path d="M305 518 C340 518 360 518 405 518" class="line"/>
+  <path d="M615 518 C650 518 670 518 715 518" class="line"/>
+  <path d="M925 518 C960 518 980 518 1025 518" class="line"/>
+  <path d="M1235 518 C1270 518 1290 518 1335 518" class="line"/>
+
+  <path d="M305 673 C340 673 360 673 405 673" class="line"/>
+  <path d="M615 673 C650 673 670 673 715 673" class="line"/>
+  <path d="M925 673 C960 673 980 673 1025 673" class="line"/>
+  <path d="M1235 673 C1270 673 1290 673 1335 673" class="line"/>
+
+  <path d="M305 828 C340 828 360 828 405 828" class="line"/>
+  <path d="M615 828 C650 828 670 828 715 828" class="line"/>
+  <path d="M925 828 C960 828 980 828 1025 828" class="line"/>
+  <path d="M1235 828 C1270 828 1290 828 1335 828" class="line"/>
+
+  <rect x="280" y="1090" width="1040" height="74" rx="16" class="panel"/>
+  <text x="800" y="1135" text-anchor="middle" class="small">If one whole column is missing, the project is usually still a prototype rather than credible forward deployed engineering proof.</text>
+</svg>

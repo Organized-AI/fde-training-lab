@@ -1,3 +1,4 @@
+import os
 import subprocess
 import sys
 import unittest
@@ -9,9 +10,14 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class CLITest(unittest.TestCase):
     def run_cli(self, *args: str) -> str:
+        env = os.environ.copy()
+        src_path = str(ROOT / "src")
+        existing = env.get("PYTHONPATH")
+        env["PYTHONPATH"] = src_path if not existing else f"{src_path}{os.pathsep}{existing}"
         result = subprocess.run(
             [sys.executable, "-m", "fde_training_lab", *args],
             cwd=ROOT,
+            env=env,
             capture_output=True,
             text=True,
             check=True,

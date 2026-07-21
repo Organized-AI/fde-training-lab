@@ -24,6 +24,7 @@ The selection is biased toward people who already build software, automation, or
 ## Workflow discovery and operations
 
 * [Workflow audit template](../templates/workflow-audit-template.md) - start here before touching models.
+* [Visual roadmap + proof stack](visual-roadmap.md) - static diagrams for the learning path and capstone evidence stack.
 * [GitLab Handbook](https://about.gitlab.com/handbook/) - one of the best public examples of explicit operating process.
 * [Google SRE Book](https://sre.google/sre-book/table-of-contents/) - useful for operational thinking, guardrails, and service maturity.
 * [danluu/post-mortems](https://github.com/danluu/post-mortems) - study how systems fail in the real world.
@@ -55,6 +56,7 @@ The selection is biased toward people who already build software, automation, or
 ## Internal repo guides
 
 * [README](../README.md) - primary entrypoint.
+* [Visual roadmap](visual-roadmap.md) - roadmap-style SVGs for the training path and proof stack.
 * [Verification guide](verification.md) - exact install and smoke-test commands.
 * [Product brief](product-brief.md) - why this repo exists.
 * [Assessment rubric](assessment-rubric.md) - how to judge readiness.

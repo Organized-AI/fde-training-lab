@@ -13,6 +13,7 @@ Inspired structurally by [awesome-cto](https://github.com/kuchin/awesome-cto).
 * [What FDE work looks like](#what-fde-work-looks-like)
 * [Core skill areas](#core-skill-areas)
 * [Training roadmap](#training-roadmap)
+* [Visual roadmap](#visual-roadmap)
 * [Capstone labs](#capstone-labs)
 * [Proof artifacts](#proof-artifacts)
 * [Templates](#templates)
@@ -48,6 +49,11 @@ See also:
 * [90-Day FDE Acceleration Plan](curriculum/90-day-acceleration-plan.md) - deepen from one capstone into repeatable delivery.
 * [Verification guide](docs/verification.md) - exact install and validation commands.
 
+## Visual roadmap
+
+* [Visual roadmap + proof stack](docs/visual-roadmap.md) - static diagrams inspired by roadmaps.sh for the training path and capstone artifact stack.
+* ![FDE roadmap preview](assets/fde-roadmap.svg)
+
 ## Capstone labs
 
 * [Audit a messy workflow](curriculum/workshop-labs.md) - build an operating map instead of a superficial automation idea.
@@ -80,6 +86,7 @@ If one of these is missing, the project is probably still a prototype rather tha
 ## Curated resources
 
 * [Curated FDE resources](docs/curated-resources.md) - a README-friendly, opinionated list of external references and internal guides.
+* [Visual roadmap + proof stack](docs/visual-roadmap.md) - static diagrams for the training path and the evidence stack.
 
 Highlights:
 * [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)
@@ -89,8 +96,18 @@ Highlights:
 
 ## CLI
 
+### Quick preview without installing
+```bash
+PYTHONPATH=src python3.11 -m fde_training_lab roadmap
+PYTHONPATH=src python3.11 -m fde_training_lab modules
+PYTHONPATH=src python3.11 -m fde_training_lab resources
+```
+
+### Editable install
 ```bash
 cd fde-training-lab
+# If .venv already exists from an older interpreter, move it aside first.
+mv .venv .venv-py39-backup 2>/dev/null || true
 python3.11 -m venv .venv
 source .venv/bin/activate
 python3.11 -m pip install -e .
@@ -118,6 +135,7 @@ python3.11 -m fde_training_lab scorecard        # FDE readiness rubric
 ```text
 fde-training-lab/
   README.md
+  assets/
   curriculum/
   docs/
   src/fde_training_lab/

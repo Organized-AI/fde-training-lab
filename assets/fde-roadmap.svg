@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2400" viewBox="0 0 1600 2400" role="img" aria-labelledby="title desc">
+  <title id="title">FDE Training Roadmap</title>
+  <desc id="desc">A roadmap-style training graphic for becoming an AI Forward Deployed Engineer.</desc>
+  <style>
+    .title { font: 700 44px 'Inter', 'Segoe UI', Arial, sans-serif; fill: #111827; }
+    .subtitle { font: 500 22px 'Inter', 'Segoe UI', Arial, sans-serif; fill: #374151; }
+    .section { font: 700 24px 'Inter', 'Segoe UI', Arial, sans-serif; fill: #111827; }
+    .cardTitle { font: 700 24px 'Inter', 'Segoe UI', Arial, sans-serif; fill: #111827; }
+    .cardText { font: 500 19px 'Inter', 'Segoe UI', Arial, sans-serif; fill: #374151; }
+    .small { font: 500 18px 'Inter', 'Segoe UI', Arial, sans-serif; fill: #4b5563; }
+    .chip { font: 700 22px 'Inter', 'Segoe UI', Arial, sans-serif; }
+    .spine { stroke: #2f80ed; stroke-width: 8; stroke-linecap: round; }
+    .dashed { stroke: #2f80ed; stroke-width: 5; stroke-linecap: round; stroke-dasharray: 4 12; fill: none; }
+    .core { fill: #fff200; stroke: #111827; stroke-width: 4; }
+    .blue { fill: #2f80ed; stroke: #2f80ed; stroke-width: 3; }
+    .beige { fill: #fde7a5; stroke: #111827; stroke-width: 4; }
+    .panel { fill: #ffffff; stroke: #111827; stroke-width: 4; }
+    .muted { fill: #f3f4f6; stroke: none; }
+  </style>
+
+  <rect width="1600" height="2400" fill="#fafafa"/>
+  <line x1="800" y1="160" x2="800" y2="2260" class="spine"/>
+  <line x1="800" y1="40" x2="800" y2="120" class="dashed"/>
+  <line x1="800" y1="2280" x2="800" y2="2360" class="dashed"/>
+
+  <text x="800" y="120" text-anchor="middle" class="title">FDE Training Roadmap</text>
+  <text x="800" y="158" text-anchor="middle" class="subtitle">Audit → build → measure → deploy → package.</text>
+
+  <rect x="60" y="60" width="400" height="220" rx="18" class="panel"/>
+  <text x="95" y="112" class="section">Related tracks to borrow from</text>
+  <text x="95" y="156" class="cardText">✓ Full-stack shipping</text>
+  <text x="95" y="194" class="cardText">✓ API + integration work</text>
+  <text x="95" y="232" class="cardText">✓ DevOps / reliability</text>
+  <text x="95" y="270" class="cardText">✓ AI workflow systems</text>
+
+  <rect x="1055" y="60" width="445" height="155" rx="18" class="panel"/>
+  <text x="1090" y="112" class="section">How to read this roadmap</text>
+  <text x="1090" y="152" class="cardText">Yellow cards = core progression</text>
+  <text x="1090" y="186" class="cardText">Blue cards = adjacent prerequisite tracks</text>
+  <text x="1090" y="220" class="cardText">Beige cards = delivery detail + proof</text>
+
+  <rect x="620" y="240" width="360" height="68" rx="14" class="core"/>
+  <text x="800" y="284" text-anchor="middle" class="cardTitle">Introduction</text>
+  <path d="M980 274 C1040 274 1060 258 1100 260" class="dashed"/>
+  <path d="M980 274 C1040 274 1060 320 1100 348" class="dashed"/>
+  <rect x="1100" y="230" width="420" height="62" rx="14" class="beige"/>
+  <text x="1310" y="270" text-anchor="middle" class="cardTitle">What an FDE actually does</text>
+  <rect x="1100" y="318" width="420" height="62" rx="14" class="beige"/>
+  <text x="1310" y="358" text-anchor="middle" class="cardTitle">Why deployment &gt; model novelty</text>
+
+  <text x="70" y="410" class="section">Baseline assumption</text>
+  <text x="70" y="450" class="cardText">This is not a beginner roadmap.</text>
+  <text x="70" y="486" class="cardText">Assume you already know how to ship software.</text>
+  <text x="70" y="522" class="cardText">The goal is to become legible as an FDE.</text>
+
+  <rect x="30" y="610" width="410" height="68" rx="14" class="blue"/>
+  <text x="235" y="654" text-anchor="middle" class="chip" fill="#ffffff">Workflow discovery</text>
+  <rect x="30" y="708" width="410" height="68" rx="14" class="blue"/>
+  <text x="235" y="752" text-anchor="middle" class="chip" fill="#ffffff">Agent + app building</text>
+  <rect x="30" y="806" width="410" height="68" rx="14" class="blue"/>
+  <text x="235" y="850" text-anchor="middle" class="chip" fill="#ffffff">Systems + ops basics</text>
+
+  <rect x="620" y="620" width="360" height="68" rx="14" class="core"/>
+  <text x="800" y="664" text-anchor="middle" class="cardTitle">Workflow Audit</text>
+  <rect x="620" y="718" width="360" height="68" rx="14" class="core"/>
+  <text x="800" y="762" text-anchor="middle" class="cardTitle">Agent Systems</text>
+  <rect x="620" y="816" width="360" height="68" rx="14" class="core"/>
+  <text x="800" y="860" text-anchor="middle" class="cardTitle">Evals &amp; Reliability</text>
+  <rect x="620" y="914" width="360" height="68" rx="14" class="core"/>
+  <text x="800" y="958" text-anchor="middle" class="cardTitle">Deployment &amp; Integrations</text>
+  <rect x="620" y="1012" width="360" height="68" rx="14" class="core"/>
+  <text x="800" y="1056" text-anchor="middle" class="cardTitle">Business Value</text>
+  <rect x="620" y="1110" width="360" height="68" rx="14" class="core"/>
+  <text x="800" y="1154" text-anchor="middle" class="cardTitle">Stakeholder Trust</text>
+
+  <line x1="440" y1="644" x2="620" y2="644" class="dashed"/>
+  <line x1="440" y1="742" x2="620" y2="742" class="dashed"/>
+  <line x1="440" y1="840" x2="620" y2="840" class="dashed"/>
+
+  <rect x="1110" y="585" width="410" height="68" rx="14" class="beige"/>
+  <text x="1315" y="629" text-anchor="middle" class="cardTitle">Observe real work, not the SOP</text>
+  <rect x="1110" y="683" width="410" height="68" rx="14" class="beige"/>
+  <text x="1315" y="727" text-anchor="middle" class="cardTitle">Split model judgment from software</text>
+  <rect x="1110" y="781" width="410" height="68" rx="14" class="beige"/>
+  <text x="1315" y="825" text-anchor="middle" class="cardTitle">Build eval sets + failure taxonomies</text>
+  <rect x="1110" y="879" width="410" height="68" rx="14" class="beige"/>
+  <text x="1315" y="923" text-anchor="middle" class="cardTitle">Roll out: sandbox → shadow → prod</text>
+  <rect x="1110" y="977" width="410" height="68" rx="14" class="beige"/>
+  <text x="1315" y="1021" text-anchor="middle" class="cardTitle">Frame wins in revenue, risk, cost</text>
+  <rect x="1110" y="1075" width="410" height="68" rx="14" class="beige"/>
+  <text x="1315" y="1119" text-anchor="middle" class="cardTitle">Make the work trustworthy</text>
+
+  <line x1="980" y1="654" x2="1110" y2="619" class="dashed"/>
+  <line x1="980" y1="752" x2="1110" y2="717" class="dashed"/>
+  <line x1="980" y1="850" x2="1110" y2="815" class="dashed"/>
+  <line x1="980" y1="948" x2="1110" y2="913" class="dashed"/>
+  <line x1="980" y1="1046" x2="1110" y2="1011" class="dashed"/>
+  <line x1="980" y1="1144" x2="1110" y2="1109" class="dashed"/>
+
+  <text x="800" y="1270" text-anchor="middle" class="section">Customer delivery &amp; field skill layer</text>
+
+  <rect x="60" y="1360" width="420" height="68" rx="14" class="beige"/>
+  <text x="270" y="1404" text-anchor="middle" class="cardTitle">Requirements gathering</text>
+  <rect x="60" y="1458" width="420" height="68" rx="14" class="beige"/>
+  <text x="270" y="1502" text-anchor="middle" class="cardTitle">Technical scoping &amp; sequencing</text>
+  <rect x="60" y="1556" width="420" height="68" rx="14" class="beige"/>
+  <text x="270" y="1600" text-anchor="middle" class="cardTitle">Tradeoffs: scope, speed, quality</text>
+  <rect x="60" y="1654" width="420" height="68" rx="14" class="beige"/>
+  <text x="270" y="1698" text-anchor="middle" class="cardTitle">Technical writing</text>
+
+  <rect x="590" y="1500" width="420" height="68" rx="14" class="core"/>
+  <text x="800" y="1544" text-anchor="middle" class="cardTitle">Discovery &amp; Scoping</text>
+  <rect x="590" y="1598" width="420" height="68" rx="14" class="core"/>
+  <text x="800" y="1642" text-anchor="middle" class="cardTitle">Business Acumen</text>
+  <rect x="590" y="1696" width="420" height="68" rx="14" class="core"/>
+  <text x="800" y="1740" text-anchor="middle" class="cardTitle">Communication</text>
+
+  <path d="M480 1394 C530 1394 530 1544 590 1544" class="dashed"/>
+  <path d="M480 1492 C530 1492 530 1544 590 1544" class="dashed"/>
+  <line x1="480" y1="1590" x2="590" y2="1590" class="dashed"/>
+  <line x1="480" y1="1688" x2="590" y2="1730" class="dashed"/>
+
+  <rect x="1120" y="1458" width="400" height="68" rx="14" class="beige"/>
+  <text x="1320" y="1502" text-anchor="middle" class="cardTitle">Enterprise workflow fluency</text>
+  <rect x="1120" y="1556" width="400" height="68" rx="14" class="beige"/>
+  <text x="1320" y="1600" text-anchor="middle" class="cardTitle">ROI + AI impact modeling</text>
+  <rect x="1120" y="1654" width="400" height="68" rx="14" class="beige"/>
+  <text x="1320" y="1698" text-anchor="middle" class="cardTitle">Stakeholder management</text>
+  <rect x="1120" y="1752" width="400" height="68" rx="14" class="beige"/>
+  <text x="1320" y="1796" text-anchor="middle" class="cardTitle">Product feedback loop</text>
+
+  <path d="M1010 1632 C1050 1632 1070 1500 1120 1492" class="dashed"/>
+  <path d="M1010 1632 C1050 1632 1070 1590 1120 1590" class="dashed"/>
+  <path d="M1010 1632 C1050 1632 1070 1688 1120 1688" class="dashed"/>
+  <path d="M1010 1632 C1050 1632 1070 1786 1120 1786" class="dashed"/>
+
+  <rect x="580" y="1910" width="440" height="78" rx="16" class="core"/>
+  <text x="800" y="1960" text-anchor="middle" class="cardTitle">Capstone Packaging</text>
+
+  <rect x="250" y="2045" width="1100" height="170" rx="18" class="panel"/>
+  <text x="800" y="2104" text-anchor="middle" class="section">Proof artifacts every FDE case study should include</text>
+  <rect x="310" y="2140" width="180" height="54" rx="12" class="blue"/>
+  <text x="400" y="2175" text-anchor="middle" class="chip" fill="#ffffff">Workflow map</text>
+  <rect x="515" y="2140" width="180" height="54" rx="12" class="blue"/>
+  <text x="605" y="2175" text-anchor="middle" class="chip" fill="#ffffff">System design</text>
+  <rect x="720" y="2140" width="180" height="54" rx="12" class="blue"/>
+  <text x="810" y="2175" text-anchor="middle" class="chip" fill="#ffffff">Eval pack</text>
+  <rect x="925" y="2140" width="180" height="54" rx="12" class="blue"/>
+  <text x="1015" y="2175" text-anchor="middle" class="chip" fill="#ffffff">Rollout plan</text>
+  <rect x="1130" y="2140" width="160" height="54" rx="12" class="blue"/>
+  <text x="1210" y="2175" text-anchor="middle" class="chip" fill="#ffffff">Case study</text>
+
+  <text x="800" y="2325" text-anchor="middle" class="small">Continue with adjacent tracks: enterprise ops, vertical workflows, and repeated customer audits.</text>
+</svg>
