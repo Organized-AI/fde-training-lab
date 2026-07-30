@@ -37,6 +37,7 @@ class CLITest(unittest.TestCase):
         self.assertIn("Curated FDE Resources", output)
         self.assertIn("Building Effective Agents", output)
         self.assertIn("Workflow Discovery and Operations", output)
+        self.assertIn("Kevin Bai", output)
 
     def test_module_details_include_outputs(self) -> None:
         output = self.run_cli("module", "workflow-audit")
@@ -54,6 +55,7 @@ class CLITest(unittest.TestCase):
     def test_scorecard_mentions_business_value(self) -> None:
         output = self.run_cli("scorecard")
         self.assertIn("Business Value", output)
+        self.assertIn("FDE Fit and Platform Leverage", output)
 
 
 if __name__ == "__main__":

@@ -9,12 +9,14 @@ Pick a real workflow with at least:
 
 Deliverable:
 - completed `templates/workflow-audit-template.md`
+- short FDE fit memo: why this is technical-platform + non-technical-buyer work
 
 ## Lab 2 — Build one real-loop agent
 Choose one narrow slice of the workflow and build a working system around it.
 
 Deliverable:
 - runnable agent or automation loop
+- reusable primitives inventory
 - trace log
 - demo notes
 
@@ -43,6 +45,7 @@ Deliverable:
 - approval gates
 - rollback path
 - monitoring plan
+- what should remain bespoke vs what should become shared product capability
 
 ## Lab 6 — Write the business case
 Frame the system as a stakeholder-safe investment.
@@ -61,3 +64,4 @@ Deliverable:
 - audit summary
 - eval summary
 - stakeholder pitch
+- why this should be recognized as FDE work instead of a custom dev engagement

@@ -34,6 +34,10 @@
 ## Human-in-the-loop policy
 When must a human review or approve?
 
+## Platform extraction opportunities
+- What failure patterns suggest a missing reusable primitive?
+- What remains intentionally bespoke for this deployment?
+
 ## Recommendation
 - ready for shadow mode?
 - needs more hardening?

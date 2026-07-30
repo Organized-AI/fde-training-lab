@@ -3,12 +3,14 @@
 ## Week 1 — Build one real-loop system
 Focus:
 - choose one real workflow
+- qualify whether it is actually FDE-shaped
 - map the steps
 - build one working agent/system
 - include traces and approval points
 
 Definition of done:
 - a non-trivial task completes repeatedly
+- you can explain why the workflow needs a customer-facing deployment motion
 - you can show what happened step by step
 
 ## Week 2 — Harden for reality
@@ -16,6 +18,7 @@ Focus:
 - add structure to inputs and outputs
 - handle unhappy paths
 - log failures and recoveries
+- extract reusable primitives versus bespoke deployment logic
 - stop building only for the happy path
 
 Definition of done:
@@ -38,6 +41,7 @@ Focus:
 - create a case study
 - write the rollout plan
 - rehearse the pitch as both engineer and operator
+- show what should stay bespoke versus what should move back into the platform
 - get feedback from real people
 
 Definition of done:
@@ -55,4 +59,6 @@ Definition of done:
 - What did I build?
 - What failed?
 - What did I measure?
+- What primitive did I extract or clarify today?
 - How would I explain this to a stakeholder?
+- Why is this FDE and not just a dev shop project?
