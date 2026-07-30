@@ -28,6 +28,7 @@ Inspired structurally by [awesome-cto](https://github.com/kuchin/awesome-cto).
 * [Product brief](docs/product-brief.md) - the thesis for this repo and the target transformation.
 * [Assessment rubric](docs/assessment-rubric.md) - the standard for whether a project actually looks like FDE work.
 * [Source notes from Greg Isenberg + Voss](docs/source-notes/greg-isenberg-fde-video.md) - transcript-grounded takeaways from the seed video.
+* [Forward Deployed Engineering 101 — Kevin Bai](docs/source-notes/kevin-bai-fde-101.md) - grounded notes on when FDE is actually the right GTM / deployment motion.
 * [Implementation plan](docs/plans/2026-07-20-fde-training-lab-implementation-plan.md) - the next buildout plan for making this repo more complete.
 
 ## Core skill areas
@@ -149,7 +150,9 @@ This repo is intentionally README-first, like an awesome list, but keeps a runna
 ## Source material
 
 * [FDE: The $1M/Year AI Job Explained](https://www.youtube.com/watch?v=zXysLUTLjw4) - seed source for the first version of this training lab.
-* [Transcript-grounded notes](docs/source-notes/greg-isenberg-fde-video.md) - extracted and synthesized from the source material.
+* [Forward Deployed Engineering 101 — Kevin Bai, Anthropic, ex Palantir & Rippling Founding FDE](https://www.youtube.com/watch?v=KwhgfwOSToQ) - strong explanation of when the FDE motion is structurally necessary.
+* [Transcript-grounded notes: Greg Isenberg + Voss](docs/source-notes/greg-isenberg-fde-video.md) - extracted and synthesized from the seed source.
+* [Transcript-grounded notes: Kevin Bai FDE 101](docs/source-notes/kevin-bai-fde-101.md) - practical framing for platform requirements, GTM fit, and the customer-facing engineer profile.
 
 ## Related stuff
 
