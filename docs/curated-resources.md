@@ -18,6 +18,8 @@ The selection is biased toward people who already build software, automation, or
 ## Role and mental models
 
 * [FDE: The $1M/Year AI Job Explained](https://www.youtube.com/watch?v=zXysLUTLjw4) - the seed source for this repo; useful for understanding the current market framing.
+* [Forward Deployed Engineering 101 — Kevin Bai](https://www.youtube.com/watch?v=KwhgfwOSToQ) - strong framing on when FDE is the right motion, why platform primitives matter, and how AI increases the need for customer-facing deployment talent.
+* [Kevin Bai source notes](source-notes/kevin-bai-fde-101.md) - transcript-grounded breakdown of the talk with repo-specific implications.
 * [Product brief](product-brief.md) - internal framing for what this repository believes FDE work actually is.
 * [Assessment rubric](assessment-rubric.md) - internal checklist for whether a project really looks deployment-grade.
 
