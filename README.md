@@ -66,7 +66,9 @@ See also:
 
 A strong FDE portfolio item should include:
 
+* FDE fit memo (why this needs a customer-facing engineer rather than self-serve SaaS or a one-off dev shop)
 * workflow map
+* reusable primitives inventory
 * system architecture
 * trace sample
 * golden dataset
@@ -77,6 +79,8 @@ A strong FDE portfolio item should include:
 * stakeholder pitch
 
 If one of these is missing, the project is probably still a prototype rather than FDE proof.
+
+A strong capstone should also explain **why the underlying motion is actually FDE-shaped**: a technical platform, a non-technical or implementation-constrained buyer, and a maintainable layer of shared primitives instead of rebuilding every deployment from scratch.
 
 ## Templates
 

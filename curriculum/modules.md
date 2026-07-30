@@ -3,22 +3,25 @@
 ## Module 1 — Workflow Audit
 **Slug:** `workflow-audit`
 
-Learn how work actually happens, not how the SOP claims it happens.
+Learn how work actually happens, not how the SOP claims it happens, and qualify whether the problem really deserves an FDE motion.
 
 Outputs:
 - operating map
+- buyer / operator technicality map
 - exception list
 - approval points
 - current metrics and pain points
+- FDE fit memo
 
 ## Module 2 — Agent Systems
 **Slug:** `agent-systems`
 
-Build one real-loop agent around a workflow with tool use, traces, and human approval.
+Build one real-loop agent around a workflow with tool use, traces, human approval, and explicit reusable primitives.
 
 Outputs:
 - workflow agent
 - architecture sketch
+- reusable primitives inventory
 - trace sample
 - integration map
 
@@ -42,6 +45,7 @@ Outputs:
 - rollback / escalation path
 - monitoring checkpoints
 - integration boundaries
+- bespoke vs shared product boundary
 
 ## Module 5 — Business Value and Trust
 **Slug:** `business-value`
@@ -53,6 +57,7 @@ Outputs:
 - risk framing
 - stakeholder-specific pitch points
 - adoption objections and answers
+- why this needs an FDE motion instead of self-serve software or pure services
 
 ## Module 6 — Capstone Packaging
 **Slug:** `capstone`
@@ -66,3 +71,4 @@ Outputs:
 - eval summary
 - deployment plan
 - stakeholder pitch
+- platform extraction memo

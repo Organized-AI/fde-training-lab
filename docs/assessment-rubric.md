@@ -32,7 +32,12 @@ Score each area from 1 to 5.
 - 3: understandable but not convincing
 - 5: can explain, defend, and de-risk the system for executives and operators
 
+## 7. FDE Fit and Platform Leverage
+- 1: the problem would be better served by self-serve software, simple configuration, or one-off contract engineering
+- 3: some justification for an FDE motion exists, but the platform and reuse story are still weak
+- 5: clearly demonstrates a technical platform for an outcome-oriented buyer, with reusable primitives and an explicit bespoke-vs-shared boundary
+
 ## Graduation bar
 A capstone starts looking like real FDE proof when:
 - no category is below 3
-- Workflow Understanding, Reliability / Evals, and Business Value average at least 4
+- Workflow Understanding, Reliability / Evals, Business Value, and FDE Fit and Platform Leverage average at least 4
